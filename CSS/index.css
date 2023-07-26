@@ -1,0 +1,51 @@
+.box{
+    width: 100%;
+height: auto;
+box-shadow: 4px 5px 15px 10px #E3C152;
+}
+.img-fluid{
+    width: 350px;
+    height: 320px;
+    border-radius: 230px;
+    margin-left:55% ;
+    margin-top:6% ;
+    border-color: white!important;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+body{
+    background-color: black !important
+    ;
+ color: #E3C152  !important;
+}
+#particles-js {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    top:100px;
+    z-index: 0;
+
+}
+.bg-dark{
+    background-color: black !important;
+}
+#particles-js img{
+  
+    z-index: -2;
+}
+.left-box{
+    z-index: 3;
+    position: absolute;
+    top: 160px;
+    left: 120px;
+    display: flex;
+    align-items: center;
+}
+.bootstrap-icons{
+    flex-direction: column;
+    display: flex;
+}
