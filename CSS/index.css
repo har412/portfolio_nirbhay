@@ -3,25 +3,23 @@
 height: auto;
 box-shadow: 4px 5px 15px 10px #E3C152;
 }
-.img-fluid{
+.home-logo-img{
     width: 350px;
     height: 320px;
     border-radius: 230px;
-    margin-left:55% ;
-    margin-top:6% ;
+    right: 120px;
     border-color: white!important;
     position: absolute;
-    display: flex;
-    align-items: center;
+
 }
 body{
-    background-color: black !important
-    ;
+    background-color: black !important;
  color: #E3C152  !important;
 }
 #particles-js {
-    height: 100vh;
+    height: 70vh;
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: center;
     position: absolute;
@@ -40,12 +38,14 @@ body{
 .left-box{
     z-index: 3;
     position: absolute;
-    top: 160px;
     left: 120px;
-    display: flex;
-    align-items: center;
+
 }
 .bootstrap-icons{
     flex-direction: column;
     display: flex;
+}
+.logo{
+    width: 40px;
+    height: 100px;
 }
