@@ -38,7 +38,7 @@ body{
     background-color: black !important;
 }
 #particles-js img{
-  
+   
     z-index: -2;
 }
 .left-box{
@@ -166,4 +166,26 @@ textarea{
     height: 50px;
     border-radius: 25px;
     background-color: #E3C152;
+}
+@media only screen and (max-width:500px) {
+    #particles-js img{
+   display: none;
+    }
+    .ed-img{
+        display: none;
+    }
+    .boxes{
+        width: 250px;
+    }
+   .right-box-ed{
+width: 300px;
+   }
+   .left-box-ed{
+    width: 300px;
+   }
+   .quote{
+    text-align: center;
+   margin-left: 30px;
+   }
+   
 }
